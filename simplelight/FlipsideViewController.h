@@ -19,5 +19,7 @@
 @property (weak, nonatomic) id <FlipsideViewControllerDelegate> delegate;
 
 - (IBAction)done:(id)sender;
+- (IBAction)linkToJonas;
+- (IBAction)linkToHenrik;
 
 @end

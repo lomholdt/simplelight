@@ -14,6 +14,17 @@
 
 @implementation FlipsideViewController
 
+- (IBAction)linkToJonas {
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://www.lomholdt.com/simplelight"]];
+}
+
+- (IBAction)linkToHenrik {
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"#"]];
+}
+
+
+
+
 - (void)awakeFromNib
 {
     [super awakeFromNib];

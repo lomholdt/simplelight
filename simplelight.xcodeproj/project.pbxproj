@@ -14,13 +14,22 @@
 		D79049FF172594D100CA9BBC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D79049FD172594D100CA9BBC /* InfoPlist.strings */; };
 		D7904A01172594D100CA9BBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7904A00172594D100CA9BBC /* main.m */; };
 		D7904A05172594D100CA9BBC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7904A04172594D100CA9BBC /* AppDelegate.m */; };
-		D7904A07172594D100CA9BBC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D7904A06172594D100CA9BBC /* Default.png */; };
-		D7904A09172594D100CA9BBC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7904A08172594D100CA9BBC /* Default@2x.png */; };
-		D7904A0B172594D100CA9BBC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7904A0A172594D100CA9BBC /* Default-568h@2x.png */; };
 		D7904A0E172594D100CA9BBC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7904A0C172594D100CA9BBC /* MainStoryboard.storyboard */; };
 		D7904A11172594D100CA9BBC /* simplelight.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D7904A0F172594D100CA9BBC /* simplelight.xcdatamodeld */; };
 		D7904A14172594D100CA9BBC /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7904A13172594D100CA9BBC /* MainViewController.m */; };
 		D7904A17172594D100CA9BBC /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7904A16172594D100CA9BBC /* FlipsideViewController.m */; };
+		D7904A1E1725956B00CA9BBC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7904A1D1725956B00CA9BBC /* AVFoundation.framework */; };
+		D7904A291725970500CA9BBC /* offButton.png in Resources */ = {isa = PBXBuildFile; fileRef = D7904A241725970500CA9BBC /* offButton.png */; };
+		D7904A2A1725970500CA9BBC /* onButton.png in Resources */ = {isa = PBXBuildFile; fileRef = D7904A251725970500CA9BBC /* onButton.png */; };
+		D7904A301725A28C00CA9BBC /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D7904A2F1725A28C00CA9BBC /* icon.png */; };
+		D7904A321725A2A500CA9BBC /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7904A311725A2A500CA9BBC /* icon@2x.png */; };
+		D7904A361725AEED00CA9BBC /* offButton.wav in Resources */ = {isa = PBXBuildFile; fileRef = D7904A341725AEED00CA9BBC /* offButton.wav */; };
+		D7904A371725AEED00CA9BBC /* onButton.wav in Resources */ = {isa = PBXBuildFile; fileRef = D7904A351725AEED00CA9BBC /* onButton.wav */; };
+		D7904A391725AF3600CA9BBC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7904A381725AF3600CA9BBC /* AudioToolbox.framework */; };
+		D7904A491725BD1400CA9BBC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7904A461725BD1300CA9BBC /* Default-568h@2x.png */; };
+		D7904A4A1725BD1400CA9BBC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D7904A471725BD1300CA9BBC /* Default.png */; };
+		D7904A4B1725BD1400CA9BBC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7904A481725BD1400CA9BBC /* Default@2x.png */; };
+		D7904A4D1725BE1900CA9BBC /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = D7904A4C1725BE1900CA9BBC /* background.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,15 +44,24 @@
 		D7904A02172594D100CA9BBC /* simplelight-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "simplelight-Prefix.pch"; sourceTree = "<group>"; };
 		D7904A03172594D100CA9BBC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D7904A04172594D100CA9BBC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D7904A06172594D100CA9BBC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		D7904A08172594D100CA9BBC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		D7904A0A172594D100CA9BBC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		D7904A0D172594D100CA9BBC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		D7904A10172594D100CA9BBC /* simplelight.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = simplelight.xcdatamodel; sourceTree = "<group>"; };
 		D7904A12172594D100CA9BBC /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		D7904A13172594D100CA9BBC /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		D7904A15172594D100CA9BBC /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
 		D7904A16172594D100CA9BBC /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		D7904A1D1725956B00CA9BBC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D7904A241725970500CA9BBC /* offButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = offButton.png; path = ../../../../../Desktop/lights/offButton.png; sourceTree = "<group>"; };
+		D7904A251725970500CA9BBC /* onButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = onButton.png; path = ../../../../../Desktop/lights/onButton.png; sourceTree = "<group>"; };
+		D7904A2F1725A28C00CA9BBC /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../icon.png; sourceTree = "<group>"; };
+		D7904A311725A2A500CA9BBC /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "../icon@2x.png"; sourceTree = "<group>"; };
+		D7904A341725AEED00CA9BBC /* offButton.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = offButton.wav; sourceTree = "<group>"; };
+		D7904A351725AEED00CA9BBC /* onButton.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = onButton.wav; sourceTree = "<group>"; };
+		D7904A381725AF3600CA9BBC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		D7904A461725BD1300CA9BBC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		D7904A471725BD1300CA9BBC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		D7904A481725BD1400CA9BBC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+		D7904A4C1725BE1900CA9BBC /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +69,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7904A391725AF3600CA9BBC /* AudioToolbox.framework in Frameworks */,
+				D7904A1E1725956B00CA9BBC /* AVFoundation.framework in Frameworks */,
 				D79049F3172594D100CA9BBC /* UIKit.framework in Frameworks */,
 				D79049F5172594D100CA9BBC /* Foundation.framework in Frameworks */,
 				D79049F7172594D100CA9BBC /* CoreGraphics.framework in Frameworks */,
@@ -81,6 +101,8 @@
 		D79049F1172594D100CA9BBC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D7904A381725AF3600CA9BBC /* AudioToolbox.framework */,
+				D7904A1D1725956B00CA9BBC /* AVFoundation.framework */,
 				D79049F2172594D100CA9BBC /* UIKit.framework */,
 				D79049F4172594D100CA9BBC /* Foundation.framework */,
 				D79049F6172594D100CA9BBC /* CoreGraphics.framework */,
@@ -92,6 +114,8 @@
 		D79049FA172594D100CA9BBC /* simplelight */ = {
 			isa = PBXGroup;
 			children = (
+				D7904A331725AEC900CA9BBC /* sounds */,
+				D7904A1F172596FA00CA9BBC /* img */,
 				D7904A03172594D100CA9BBC /* AppDelegate.h */,
 				D7904A04172594D100CA9BBC /* AppDelegate.m */,
 				D7904A0C172594D100CA9BBC /* MainStoryboard.storyboard */,
@@ -112,11 +136,32 @@
 				D79049FD172594D100CA9BBC /* InfoPlist.strings */,
 				D7904A00172594D100CA9BBC /* main.m */,
 				D7904A02172594D100CA9BBC /* simplelight-Prefix.pch */,
-				D7904A06172594D100CA9BBC /* Default.png */,
-				D7904A08172594D100CA9BBC /* Default@2x.png */,
-				D7904A0A172594D100CA9BBC /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D7904A1F172596FA00CA9BBC /* img */ = {
+			isa = PBXGroup;
+			children = (
+				D7904A4C1725BE1900CA9BBC /* background.png */,
+				D7904A461725BD1300CA9BBC /* Default-568h@2x.png */,
+				D7904A471725BD1300CA9BBC /* Default.png */,
+				D7904A481725BD1400CA9BBC /* Default@2x.png */,
+				D7904A311725A2A500CA9BBC /* icon@2x.png */,
+				D7904A2F1725A28C00CA9BBC /* icon.png */,
+				D7904A241725970500CA9BBC /* offButton.png */,
+				D7904A251725970500CA9BBC /* onButton.png */,
+			);
+			name = img;
+			sourceTree = "<group>";
+		};
+		D7904A331725AEC900CA9BBC /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				D7904A341725AEED00CA9BBC /* offButton.wav */,
+				D7904A351725AEED00CA9BBC /* onButton.wav */,
+			);
+			name = sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,10 +216,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				D79049FF172594D100CA9BBC /* InfoPlist.strings in Resources */,
-				D7904A07172594D100CA9BBC /* Default.png in Resources */,
-				D7904A09172594D100CA9BBC /* Default@2x.png in Resources */,
-				D7904A0B172594D100CA9BBC /* Default-568h@2x.png in Resources */,
 				D7904A0E172594D100CA9BBC /* MainStoryboard.storyboard in Resources */,
+				D7904A291725970500CA9BBC /* offButton.png in Resources */,
+				D7904A2A1725970500CA9BBC /* onButton.png in Resources */,
+				D7904A301725A28C00CA9BBC /* icon.png in Resources */,
+				D7904A321725A2A500CA9BBC /* icon@2x.png in Resources */,
+				D7904A361725AEED00CA9BBC /* offButton.wav in Resources */,
+				D7904A371725AEED00CA9BBC /* onButton.wav in Resources */,
+				D7904A491725BD1400CA9BBC /* Default-568h@2x.png in Resources */,
+				D7904A4A1725BD1400CA9BBC /* Default.png in Resources */,
+				D7904A4B1725BD1400CA9BBC /* Default@2x.png in Resources */,
+				D7904A4D1725BE1900CA9BBC /* background.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,10 +326,12 @@
 		D7904A1B172594D100CA9BBC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "simplelight/simplelight-Prefix.pch";
 				INFOPLIST_FILE = "simplelight/simplelight-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -285,10 +339,14 @@
 		D7904A1C172594D100CA9BBC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "simplelight/simplelight-Prefix.pch";
 				INFOPLIST_FILE = "simplelight/simplelight-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
